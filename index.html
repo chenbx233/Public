@@ -14,8 +14,8 @@
 var player = new Aliplayer({
   "id": "player-con",
   "source": "https://livesec.mudu.tv/watch/5d95aw.m3u8?auth_key=1613714789-972471-0-262995222e32d0986f71d8e47d57f920",
-  "width": "100%",
-  "height": "1919",
+  "width": "500px",
+  "height": "100%",
   "autoplay": true,
   "isLive": true,
   "rePlay": true,
@@ -27,6 +27,12 @@ var player = new Aliplayer({
     "crossOrigin": "anonymous"
   },
   "skinLayout": [
+    {
+      "name": "bigPlayButton",
+      "align": "blabs",
+      "x": 30,
+      "y": 80
+    },
     {
       "name": "errorDisplay",
       "align": "tlabs",
